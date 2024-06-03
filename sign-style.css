@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./assets/bg.png);
+    background-size: cover;
+    background-position: center;
+    padding: 4px 5rem;
+    position: relative;
+    
+}
+
+.logo{
+    margin-right: 72px;
+    margin-top: -11px;
+    margin-left: 43px;
+    width: 160px;
+    height: 93px;
+    cursor: pointer;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1%;
+}
+
+.signin-form {
+    position: absolute;
+    top: 54.5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.532);
+    width: 32%;
+    height: 91%;
+}
+
+.signin-form h1 {
+    text-align: left;
+    margin-top: 46px;
+    margin-bottom: 22px;
+    margin-left: 62px;
+    font-size: 2rem;    
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    margin-left: 64px;
+    margin-right: 64px;;
+    border-radius: 8px;
+    border: 0.5px solid rgb(167, 167, 167);
+}
+
+.form-group input {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    background-color: rgba(77, 76, 76, 0.62);
+    border-radius: 2px;
+}
+
+button {
+    width: 73%;
+    padding: 13px;
+    font-size: 16px;
+    background-color: #e50914;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    transition: 0.2s all ease-in;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #9d050c;
+}
+
+.btn{
+    width: 73%;
+    padding: 13px;
+    font-size: 16px;
+    background-color: #5d5c5c7c;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    transition: 0.2s all ease-in;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #3f3f3f7c;
+}
+
+.signin-form h3{
+    padding: 15px;
+    font-weight: 10;
+    color: lightslategrey;
+}
+.signin-form h4{
+    padding-top: 12px;
+    font-weight: 10;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: rgb(222, 222, 222);
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(136, 136, 136);;
+}
+
+.help-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.help-links .checkbox{
+    margin-top: 15px;
+    margin-left: 45px;
+}
+    
+
+.help-links a {
+    color: #b3b3b3;
+    text-decoration: none;
+}
+
+.help-links a:hover {
+    text-decoration: underline;
+}
+
+.signup-now {
+    font-size: 15px;
+    margin-left: -112px;
+    margin-top: 20px;
+}
+
+.signup-now a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-now a:hover {
+    text-decoration: underline;
+}
+
+.recaptcha-info {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #8c8c8c;
+    
+    margin: 14px 70px 0 41px;
+    text-align: left;
+}
+
+.recaptcha-info a {
+    color: #0071eb;
+    text-decoration: none;
+}
+
+.recaptcha-info a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    text-align: left;
+    padding: 100px 171px;
+    color: #c4c4c4;
+    margin-top: 117px; 
+}
+.footer h2 {
+    font-size: 16px;
+    font-weight: 400;
+    /* margin-bottom: 15px; */
+}
+.footer .col {
+    display: inline-block;
+    margin-right: 146px;
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+.footer .col a {
+    display: block;
+    color: #c0bcbc;
+    font-size: 14px;
+    font-weight: 100px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+} 
+
+.footer .row {
+    align-items: flex-start;
+    padding: 10px 0px;
+}
+
+.bttn{
+    /* display: inline-flex; */
+    width: 138px;
+    align-items: center;
+    background: transparent;
+    border: 1px solid rgb(137, 137, 137);
+    padding: 5px 22px;
+    margin-right: 12px;
+    border-radius: 4px;
+}
+.bttn img{
+    width: 10px;
+    margin-left: 10px;
+}
+.bttn:hover{
+    background-color: black;
+}
+
+.copyright-text {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: -21px;
+}
